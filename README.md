@@ -1,5 +1,5 @@
 # simple_sim_fusion_demo
-Simple demo of structured illumination microscopy image fusion via Richardson-Lucy deconvolution
+Simple demo of structured illumination microscopy image fusion via Richardson-Lucy deconvolution.
 
 Given a 2D x-z object:
 
@@ -16,5 +16,10 @@ And blurred with a 2D x-z PSF like this:
 Yielding data like this:
 
 <img src="./images/6_noisy_measurement.gif" alt="Measurement" width="200">
+
+We use Richardson-Lucy deconvolution to turn this measurement into an estimate of the true density:
+
+<img src="./images/8_final_estimate.png" alt="Estimate vs. truth" width="200">
+
 
 
