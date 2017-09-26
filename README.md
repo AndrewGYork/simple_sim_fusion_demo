@@ -3,4 +3,4 @@ Simple demo of structured illumination microscopy image fusion via Richardson-Lu
 
 Given a true object:
 
-<img src="1_true_density.png" alt="True density" style="width: 200px;"/>
+<img src="1_true_density.png" alt="True density" width="200">
