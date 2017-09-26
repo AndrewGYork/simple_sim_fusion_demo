@@ -2,4 +2,5 @@
 Simple demo of structured illumination microscopy image fusion via Richardson-Lucy deconvolution
 
 Given a true object:
-![True object](1_true_density.png)
+
+<img src="1_true_density.png" alt="True density" style="width: 200px;"/>
