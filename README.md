@@ -1,5 +1,5 @@
 # simple_sim_fusion_demo
-Simple demo of structured illumination microscopy image fusion via Richardson-Lucy deconvolution. To run the code yourself, download [`sim_fusion.py`](https://github.com/AndrewGYork/simple_sim_fusion_demo/blob/master/sim_fusion.py) and [`np_tif.py`](https://github.com/AndrewGYork/simple_sim_fusion_demo/blob/master/np_tif.py), put them in the same directory, and execute them in a [Python 3 environment that includes Numpy and Scipy](https://www.scipy.org/install.html). To see the results of running the code, scroll down.
+Simple demo of structured illumination microscopy [image fusion via Richardson-Lucy deconvolution](https://www.ncbi.nlm.nih.gov/pubmed/24436314). To run the code yourself, download [`sim_fusion.py`](https://github.com/AndrewGYork/simple_sim_fusion_demo/blob/master/sim_fusion.py) and [`np_tif.py`](https://github.com/AndrewGYork/simple_sim_fusion_demo/blob/master/np_tif.py), put them in the same directory, and execute them in a [Python 3 environment that includes Numpy and Scipy](https://www.scipy.org/install.html). To see the results of running the code, scroll down.
 
 Given a 2D x-z object:
 
