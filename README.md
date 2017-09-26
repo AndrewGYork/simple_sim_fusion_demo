@@ -17,9 +17,13 @@ Yielding data like this:
 
 <img src="./images/6_noisy_measurement.gif" alt="Measurement" width="200">
 
-We use Richardson-Lucy deconvolution to turn this measurement into an estimate of the true density:
+We turn this measurement into an estimate of the true density (truth is in red, estimate is in green):
 
 <img src="./images/8_final_estimate.png" alt="Estimate vs. truth" width="200">
+
+Via iterative Richardson-Lucy deconvolution:
+
+<img src="./images/7_estimate_history.gif" alt="Iterative convergence" width="200">
 
 
 
