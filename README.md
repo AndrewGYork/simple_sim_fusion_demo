@@ -12,3 +12,9 @@ Illuminated with a series of 2D x-z intensity patterns like this:
 And blurred with a 2D x-z PSF like this:
 
 <img src="3_psf_intensity.png" alt="Point spread function" width="200">
+
+Yielding data like this:
+
+<img src="5_illumination_intensity.gif" alt="Illumination" width="200">
+
+
