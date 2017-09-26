@@ -15,6 +15,6 @@ And blurred with a 2D x-z PSF like this:
 
 Yielding data like this:
 
-<img src="./images/5_illumination_intensity.gif" alt="Illumination" width="200">
+<img src="./images/6_noisy_measurement.gif" alt="Measurement" width="200">
 
 
