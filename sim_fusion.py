@@ -100,7 +100,7 @@ np_tif.array_to_tif(noisy_measurement, '6_noisy_measurement.tif')
 
 # Use H and H_t to deconvolve the simulated data via Richardson-Lucy
 # deconvolution
-num_iterations = 200
+num_iterations = 2000
 H_t_norm = H_t(np.ones_like(noisy_measurement)) # Normalization factor
 estimate = np.ones_like(true_density) # Naive initial belief
 estimate_history = []
