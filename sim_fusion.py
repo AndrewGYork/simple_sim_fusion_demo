@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 # Dependencies from the scipy stack https://www.scipy.org/stackspec.html :
 import numpy as np
-from scipy.ndimage import gaussian_filter
 from scipy.signal import fftconvolve
 # Dependencies from https://github.com/AndrewGYork/tools/blob/master/np_tif.py :
 import np_tif
@@ -58,7 +57,7 @@ for ps in pix_shifts:
     phase = np.exp(-2j * np.pi * k_x * ps)
     illumination_field = np.fft.fftn(illumination_field_ft * phase)
     illumination_intensities.append(
-        np.abs(np.fft.fftshift(illumination_field *
+        np.fft.fftshift(np.abs(illumination_field *
                                np.conj(illumination_field))))
 np_tif.array_to_tif(np.array(illumination_intensities),
                     '5_illumination_intensity.tif')
